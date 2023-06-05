@@ -1,0 +1,38 @@
+.homeFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home{
+    background-color: hsl(238, 77%, 36%, 30%);
+    padding: 1rem;
+}
+
+.filters{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.filterContinents{
+    background-color: transparent;
+    border-radius: 40px;
+}
+
+.filterAlpha{
+    background-color: transparent;
+    border-radius: 40px;
+}
+
+.filterBtns{
+    background-color: hsl(0, 0%, 100%, 80%);
+    width: 45%;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

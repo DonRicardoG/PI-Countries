@@ -1,0 +1,68 @@
+.createForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 898px;
+    height: 580px;
+    margin: 4rem auto;
+    background-color: #1519A2;
+    border-radius: 20px;
+}
+
+.divForm h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 64px;
+    margin: 0;
+}
+
+.createInput{
+    height: 47px;
+    width: 742px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.createInput::placeholder{
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.createSelects select{
+    height: 47px;
+    width: 742px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputsForm{
+    background-color: #95B4E9;
+    width: 786px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.countrySelections{
+    height: 80px;
+    width: 742px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.backgroundCreate{
+    background-color: hsl(238, 77%, 36%, 30%);
+    height: 100vh;
+}
+

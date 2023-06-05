@@ -1,0 +1,30 @@
+.searchBar{
+    background-color: transparent;
+    justify-content: center;
+}
+
+.searchBarInput{
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 40px;
+    border-color: black;
+}
+
+.searchBtn{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    z-index: 10;
+    width: 10px;
+    top: 8px;
+    right: 41px;
+}
+
+.searchBar ::placeholder{
+    font-size: 1rem;
+    color: #000;
+}
+
+.searchBtn:hover{
+    cursor: pointer;
+}

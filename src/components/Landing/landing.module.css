@@ -1,0 +1,34 @@
+.background{
+    background-image: url(../../photos/LPBG.jpg);
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeBtn{
+    display: flex;
+    position: absolute;
+    right: 410px;
+    top: 430px;
+    border: none;
+    border-radius: 30px;
+    width: 210px;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+    background-color: #95B4E9;
+    transition: 0.2s background-color ease;
+}
+
+.homeBtn:hover{
+    cursor: pointer;
+    background-color: #6b82a9;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+}

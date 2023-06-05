@@ -1,0 +1,35 @@
+.navBar{
+    display: flex;
+    background-color: hsl(238, 77%, 36%, 40%);
+}
+
+.logo{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsDisplay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.btns{
+    height: 41px;
+    width: 155px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #95B4E9;
+    color: #FFFFFF;
+    transition: 0.1s background-color ease;
+}
+
+.btns:hover{
+    background-color: #0238FB;
+    cursor: pointer;
+}
